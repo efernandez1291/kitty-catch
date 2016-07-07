@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  background: #499bea; }
+
+.game {
+  z-index: 5; }
+  .game .fire .bottom {
+    width: 65%;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: -12%;
+    -webkit-animation-name: dancing_flames;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 2s;
+    animation-name: dancing_flames;
+    animation-iteration-count: infinite;
+    animation-duration: 2s; }
+  .game .fire .left {
+    width: 65%;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 3;
+    left: 10%;
+    top: -17%;
+    -webkit-animation-name: dancing_flames;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 1.4s;
+    animation-name: dancing_flames;
+    animation-iteration-count: infinite;
+    animation-duration: 1.4s; }
+  .game .fire .right {
+    width: 65%;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 3;
+    right: 10%;
+    top: -17%;
+    -webkit-animation-name: dancing_flames;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 1.5s;
+    animation-name: dancing_flames;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s; }
+  .game .fire .top {
+    width: 65%;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 4;
+    left: 0;
+    right: 0;
+    top: -18%;
+    -webkit-animation-name: dancing_flames;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 1.3s;
+    animation-name: dancing_flames;
+    animation-iteration-count: infinite;
+    animation-duration: 1.3s; }
+  .game .building {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 2; }
+    .game .building img:first-child {
+      width: 100%; }
+    .game .building .cat {
+      position: fixed;
+      height: 13%; }
+      .game .building .cat.topLeft {
+        top: 27%;
+        left: 30%;
+        -webkit-animation-name: cat_jump;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-duration: 3s;
+        animation-name: cat_jump;
+        animation-iteration-count: infinite;
+        animation-duration: 3s; }
+  .game #boy {
+    position: fixed;
+    bottom: .3rem;
+    z-index: 3;
+    height: 21.7%; }
+  .game .sidewalk {
+    height: .3rem;
+    width: 100%;
+    background-color: #979797;
+    position: fixed;
+    bottom: 0; }
+
+@media (max-width: 480px) and (max-height: 320px) {
+  .building {
+    width: 40.5%; } }
+
+@media (min-width: 481px) and (max-width: 568px) and (max-height: 320px) {
+  .building {
+    width: 34.2%; } }
+
+@media (min-width: 569px) and (max-width: 667px) and (min-height: 321px) and (max-height: 375px) {
+  .building {
+    width: 34.7%; } }
+
+@media (min-width: 668px) and (max-width: 736px) and (min-height: 376px) and (max-height: 414px) {
+  .building {
+    width: 33.5%; } }
+
+@media (min-width: 737px) and (max-width: 1024px) and (min-height: 415px) and (max-height: 768px) {
+  .building {
+    width: 44.5%; } }
+
+@-webkit-keyframes dancing_flames {
+  0% {
+    height: 37%; }
+  10% {
+    height: 36%; }
+  20% {
+    height: 38%; }
+  30% {
+    height: 36%; }
+  40% {
+    height: 38%; }
+  50% {
+    height: 37%; }
+  60% {
+    height: 38%; }
+  70% {
+    height: 36%; }
+  80% {
+    height: 37%; }
+  90% {
+    height: 38%; }
+  100% {
+    height: 37%; } }
+
+@keyframes dancing_flames {
+  0% {
+    height: 37%; }
+  10% {
+    height: 36%; }
+  20% {
+    height: 38%; }
+  30% {
+    height: 36%; }
+  40% {
+    height: 38%; }
+  50% {
+    height: 37%; }
+  60% {
+    height: 38%; }
+  70% {
+    height: 36%; }
+  80% {
+    height: 37%; }
+  90% {
+    height: 38%; }
+  100% {
+    height: 37%; } }
+
+@-webkit-keyframes cat_jump {
+  0% {
+    top: 27%; }
+  7% {
+    top: 20%;
+    left: 28%; }
+  55% {
+    top: 88%;
+    left: 20%; }
+  100% {
+    top: 88%;
+    left: 20%; } }
+
+@keyframes cat_jump {
+  0% {
+    top: 27%; }
+  20% {
+    top: 20%; }
+  100% {
+    top: 100%; } }

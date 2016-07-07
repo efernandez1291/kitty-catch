@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="540px" height="781px" viewBox="0 0 540 781" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>Building</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Building" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Game-Background" sketch:type="MSLayerGroup" transform="translate(-320.000000, -699.000000)">
+            <g id="Building" transform="translate(226.000000, 464.000000)" sketch:type="MSShapeGroup">
+                <rect id="Rectangle-2" fill="#F87E51" x="107.75641" y="247.564246" width="517.240741" height="768.435754"></rect>
+                <rect id="Rectangle-4" fill="#B0593A" x="94.9216524" y="235.832402" width="539.059829" height="23.4636872"></rect>
+                <polygon id="Triangle-1" fill="#EB774D" transform="translate(500.198288, 504.927303) rotate(46.000000) translate(-500.198288, -504.927303) " points="410.187173 244.529475 949.497232 765.325132 50.8993448 616.587763 "></polygon>
+                <g id="Door" transform="translate(286.000000, 805.000000)">
+                    <rect id="Rectangle-11" fill="#ED5465" x="10" y="8" width="140" height="202"></rect>
+                    <rect id="Rectangle-12" fill="#B8404E" x="0" y="0" width="160" height="16"></rect>
+                    <path d="M150,16 L10,16 L149.630859,210 L150,16 Z" id="Triangle-2" fill="#E14E5F"></path>
+                    <circle id="Oval-1-Copy" fill-opacity="0.629999995" fill="#848484" cx="137" cy="111" r="6"></circle>
+                    <circle id="Oval-1" fill="#FFCF49" cx="136" cy="110" r="6"></circle>
+                </g>
+                <g id="windows" transform="translate(115.000000, 295.000000)">
+                    <g id="top-windows">
+                        <g id="window">
+                            <rect id="Rectangle-12-Copy" fill="#B8404E" x="0" y="165" width="160" height="16"></rect>
+                            <rect id="Rectangle-5-Copy-3" fill="#7C3333" x="17" y="0" width="126" height="165"></rect>
+                            <rect id="Rectangle-15" fill="#B0593A" x="17" y="0" width="126" height="21"></rect>
+                        </g>
+                        <g id="window-copy" transform="translate(172.000000, 0.000000)">
+                            <rect id="Rectangle-12-Copy" fill="#B8404E" x="0" y="165" width="160" height="16"></rect>
+                            <rect id="Rectangle-5-Copy-3" fill="#7C3333" x="17" y="0" width="126" height="165"></rect>
+                            <rect id="Rectangle-15" fill="#B0593A" x="17" y="0" width="126" height="21"></rect>
+                        </g>
+                        <g id="window-copy-2" transform="translate(343.000000, 0.000000)">
+                            <rect id="Rectangle-12-Copy" fill="#B8404E" x="0" y="165" width="160" height="16"></rect>
+                            <rect id="Rectangle-5-Copy-3" fill="#7C3333" x="17" y="0" width="126" height="165"></rect>
+                            <rect id="Rectangle-15" fill="#B0593A" x="17" y="0" width="126" height="21"></rect>
+                        </g>
+                    </g>
+                    <g id="bottom-windows" transform="translate(0.000000, 216.000000)">
+                        <g id="window">
+                            <rect id="Rectangle-12-Copy" fill="#B8404E" x="0" y="165" width="160" height="16"></rect>
+                            <rect id="Rectangle-5-Copy-3" fill="#7C3333" x="17" y="0" width="126" height="165"></rect>
+                            <rect id="Rectangle-15" fill="#B0593A" x="17" y="0" width="126" height="21"></rect>
+                        </g>
+                        <g id="window-copy" transform="translate(172.000000, 0.000000)">
+                            <rect id="Rectangle-12-Copy" fill="#B8404E" x="0" y="165" width="160" height="16"></rect>
+                            <rect id="Rectangle-5-Copy-3" fill="#7C3333" x="17" y="0" width="126" height="165"></rect>
+                            <rect id="Rectangle-15" fill="#B0593A" x="17" y="0" width="126" height="21"></rect>
+                        </g>
+                        <g id="window-copy-2" transform="translate(343.000000, 0.000000)">
+                            <rect id="Rectangle-12-Copy" fill="#B8404E" x="0" y="165" width="160" height="16"></rect>
+                            <rect id="Rectangle-5-Copy-3" fill="#7C3333" x="17" y="0" width="126" height="165"></rect>
+                            <rect id="Rectangle-15" fill="#B0593A" x="17" y="0" width="126" height="21"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
